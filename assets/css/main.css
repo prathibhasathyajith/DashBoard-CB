@@ -1,0 +1,214 @@
+@import 'fonts.css';
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+body {
+    background-image: url(../image/back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cbd-main-content {
+    margin: 55px 0 0 0;
+    width: 100%;
+    background-color: black;
+    height: auto;
+    background-image: url(../image/blurBackNew3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 5px 0px rgba(53, 50, 50, 0.48);
+}
+.cbd-content {
+    width: 100%;
+    height: auto;
+    background-image: url(../image/blurBackNew3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.cbd-Fheader {
+    position: fixed;
+    top: 0;
+}
+.cbd-header {
+    width: 100%;
+    height: 30px;
+    background-color: #303030;
+    box-shadow: 0 3px 11px rgba(0, 0, 0, 0.52);
+}
+.cbdheader-text {
+    font-family: raleway;
+    font-size: 18px;
+    font-weight: 800;
+}
+.cbd-text {
+    font-family: raleway;
+    font-size: 12px;
+    font-weight: normal;
+}
+.cbd-headertext-margin {
+    /* margin: 6px 1px; */
+    padding: 4px 3px;
+}
+.cbd-headerlogout-margin {
+    padding: 4px 15px;
+}
+.cbd-header > .cbd-header-logo {
+    float: left;
+}
+.cbd-header > .cbd-header-Text1 {
+    float: left;
+}
+.cbd-header > .cbd-header-Text2 {
+    float: left;
+}
+.cbd-header > .cbd-header-divider {
+    float: left;
+    color: white;
+    font-weight: bold;
+}
+.cbd-header > .cbd-header-logout {
+    float: right;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.cbd-header > .cbd-header-logout:hover {
+    letter-spacing: 2px;
+}
+.cbd-terminal-status {
+    width: 70%;
+    float: left;
+    word-break: break-all;
+}
+.cbd-Notifi-status {
+    width: 30%;
+    float: left;
+    word-break: break-all;
+}
+.cbd-cont-divider {
+    padding: 0 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.17);
+    margin: 15px 0;
+}
+@media (max-width: 768px) {
+    .cbd-terminal-status {
+        width: 100%;
+    }
+    .cbd-Notifi-status {
+        width: 100%;
+    }
+    .cbd-cont-divider {
+        padding: 15px;
+        border-left: 0px solid rgba(255, 255, 255, 0.17);
+        margin: 0 0;
+    }
+}
+.cbd-cont-padding {
+    padding: 15px;
+}
+.cbd-creater {
+    margin-top: 30px;
+    float: right;
+    font-size: 13px;
+    font-family: raleway;
+    padding-right: 15px;
+}
+.cbd-noti-table{
+    border-collapse: collapse;
+}
+.cbd-indi-table{
+    border-collapse: collapse;
+}
+.cbd-noti-table tr td {
+    margin: 3px;
+    padding: 3px;
+}
+.cbd-noti-table td {
+    color: #95989A;
+}
+.cbd-noti-table tr > td:last-child {
+    color: white;
+    padding-left: 40px;
+}
+.cbd-indi-table tr,
+.cbd-indi-table td {
+    margin: 0px;
+    padding: 0px 10px 0 0;
+    font-size: 14px;
+    color: #2E96B1;
+    font-weight: 300;
+}
+
+/*number covers*/
+
+.cbd-cover {
+    width: 25px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    padding: 2px;
+    height: auto;
+    font-weight: 800;
+}
+/*--------------------*/
+
+/*----- colors --------*/
+.red {
+    background-color: #ff2c2c;
+}
+.blue {
+    background-color: #2196F3;
+}
+.gray {
+    background-color: #9E9E9E;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: darkorange;
+}
+
+/*-----------------------*/
+
+
+/*indicators color*/
+
+.cbd-indicator {
+    width: 7px;
+    height: 25px;
+}
+
+/*-------------------*/
+
+
+.dash > span {
+    color: white;
+    transition: 0.5s;
+}
+.dash > span > span {
+    color: darkgray;
+    transition: 0.5s;
+}
+.mini > span {
+    color: #ED1C24;
+    transition: 0.5s;
+}
+.mini > span > span {
+    color: #F36F21;
+    transition: 0.5s;
+}
+.secH > span {
+    color: #ED1C24;
+    transition: 0.5s;
+    padding-left: 20px;
+}
+.secH > span > span {
+    color: white;
+    transition: 0.5s;
+}
